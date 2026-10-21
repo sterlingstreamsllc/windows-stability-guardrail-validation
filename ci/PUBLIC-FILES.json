@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "repository": "sterlingstreamsllc/windows-stability-guardrail-validation",
+  "ref": "refs/heads/main",
+  "history": "FRESH; no private Git history",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 179,
+      "sha256": "d4a4dc786d098e02405f8603f51c181b5d765ae6e9aedb43f6ea441dc77ffe0c"
+    },
+    {
+      "path": ".github/workflows/windows-package-smoke.yml",
+      "bytes": 10515,
+      "sha256": "1b41e791f1cce5bb2d032ee27f1900c5dc802de48d9e342a4ce9fcefa3d707f0"
+    },
+    {
+      "path": "ci/package-smoke.ps1",
+      "bytes": 20389,
+      "sha256": "9f13b70993c7ada9cfc37f499a08219408826cbe5e8e27ec2d3919dd84e2fd68"
+    },
+    {
+      "path": "ci/package-runtime-probe.py",
+      "bytes": 3006,
+      "sha256": "e32f691740d435e53197c11bfeec6ca696869372202025d2382240627c6d2c44"
+    },
+    {
+      "path": "packaging/pkg.1/Package.ps1",
+      "bytes": 27576,
+      "sha256": "30e6e5dfe10d0bc790799c20be449464555e63cf2ba2f4f339a818500baa7107"
+    },
+    {
+      "path": "package-candidates/0.1.2-pkg.1/.gitattributes",
+      "bytes": 18,
+      "sha256": "0c29ea34135c44865de79b4e93414805eafeda1d6c1d389540b07c199e2fe0d4"
+    },
+    {
+      "path": "ci/PUBLIC-VALIDATION.md",
+      "bytes": 9239,
+      "sha256": "6c32a76be99735b4964b2db0f0c5702ef1ce9defd0799e34d1be6a82340327e8"
+    },
+    {
+      "path": "ci/OwnedCommand.cs",
+      "bytes": 18254,
+      "sha256": "ee85dc764a2af061bbf222a00132cd187bbe4888f3a96fd9fb0e0039da95228b"
+    },
+    {
+      "path": "package-candidates/0.1.2-pkg.1/PC-Stability-Guard-0.1.2-pkg.1.zip",
+      "bytes": 11600050,
+      "sha256": "a6a7a8a698819c0d0cde2e36dfe86e2afd256db26668315f616cec533c384310",
+      "kind": "FROZEN_BINARY"
+    }
+  ],
+  "self_manifest": "This file is excluded from its own hashes; exact bytes/hash recorded in review upload payload.",
+  "production": "DISABLED",
+  "native_validation": "UNEXECUTED",
+  "repository_id": 1428899604
+}
